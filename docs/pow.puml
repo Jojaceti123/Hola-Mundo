@@ -1,0 +1,28 @@
+@startuml PowderBlue
+class Masota
+    {
+        -color 
+        -tamaño
+        -porcentajeSalud
+        +Comer()
+        +Cagar()
+        +Duchar()
+    }
+
+class Juego
+class JuegoPelota
+class JuegoPelota
+class Patineta 
+class Comida 
+class Ropa 
+class KK 
+class Higiene
+class Moneda
+class Moneda
+class Salud 
+
+Pow o-- Juego
+Juego <|-- JuegoPelota
+Pelota --* JuegoPelota
+
+@enduml

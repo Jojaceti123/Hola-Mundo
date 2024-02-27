@@ -1,0 +1,26 @@
+@startuml Mascota 
+
+class Mascota {
+    - salud : int 
+    + Comer()
+}
+
+package Jugetes{
+    class pelota {
+        -posicion:Vectro2D
+        -color {
+            -rojo : int
+            -verde : int
+            -azul : int 
+        }
+        +Rebotar()
+    }
+    class carro
+}
+
+class casa 
+class ropa 
+class pelo 
+
+
+@enduml
