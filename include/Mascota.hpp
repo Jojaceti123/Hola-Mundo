@@ -23,4 +23,4 @@ class Mascota
         {
             return this->Energia;
         }
-};//holo
+};
