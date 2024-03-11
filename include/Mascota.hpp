@@ -21,6 +21,6 @@ class Mascota
             }
         int LeerEnergia()
         {
-            return this->Energía;
+            return this->Energia;
         }
-};
+};//holo
